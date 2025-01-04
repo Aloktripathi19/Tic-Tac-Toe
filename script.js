@@ -1,7 +1,7 @@
 let f = true
 let br = document.getElementsByTagName("button")
 function fun(button) {
-    console.log(f)
+    //console.log(f)
     if (button.innerHTML == "") {
         if (f) {
             button.innerHTML = "X"
